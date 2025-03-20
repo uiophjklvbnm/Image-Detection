@@ -45,7 +45,7 @@ def save_uploaded_file(uploaded_file):
         return tmp_file.name
 
 # Streamlit UI
-st.title("Object Detection UI")
+st.title("Image Object Detection")
 st.write("Upload two images to compare and highlight differences.")
 
 # File Uploaders
